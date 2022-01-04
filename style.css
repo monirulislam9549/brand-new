@@ -24,10 +24,28 @@ padding-left: 5%;}
 background-repeat: no-repeat;
 background-position: right;
 padding-right: 0%;}
+.course-hero{background-image: url(/exp-bg.png);
+background-repeat: no-repeat;
+background-position: inherit;}
 .subject-item{box-shadow: rgb(154, 174, 189) 10px 10px 40px;
 width: 40%;
 margin-left: 4%;
 margin-right: 4%;
 padding-left: 10px;
-border-radius: 15px;
+border-radius: 20px;}
+
+#Baby-micro{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#pro-micro{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(51, 221, 17), rgb(76, 24, 218));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
